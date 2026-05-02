@@ -1,0 +1,81 @@
+########################################################
+// Execute status immediately
+
+
+
+{
+  "v": 0.2,       
+  "w": 0.0,       
+  "alfa0": 0,     
+  "alfa1": 45,     
+  "alfa2": 30,     
+  "duration": 2.0  
+}
+
+
+
+########################################################
+// Create a sequence
+
+
+
+{
+  "action": "create",
+  "sequence": {
+    "name": "NOMBRE_SECUENCIA",
+    "states": [
+      {
+        "v": 0,
+        "w": 0,
+        "alfa0": 0,
+        "alfa1": 0,
+        "alfa2": 0,
+        "duration": 0
+      },
+      {
+        "v": 0,
+        "w": 0,
+        "alfa0": 0,
+        "alfa1": 0,
+        "alfa2": 0,
+        "duration": 0
+      }
+    ]
+  }
+}
+
+
+
+########################################################
+//Execute now
+
+
+{
+  "action": "execute_now",
+  "name": "NOMBRE_SECUENCIA"
+}
+
+
+
+########################################################
+//Program sequence (RTC)
+
+
+{
+  "action": "schedule",
+  "name": "NOMBRE_SECUENCIA",
+  "time": "2025-09-25T20:00:00Z"
+}
+
+
+
+
+########################################################
+//Delete sequence
+
+
+
+{
+  "action": "delete",
+  "name": "NOMBRE_SECUENCIA"
+}
