@@ -36,6 +36,28 @@ The system architecture allows a central server to broadcast user-defined instru
 * **Languages:** MicroPython (Client), Python (Server), HTML/JS (Simulator).
 * **Protocols:** MQTT (Message Queuing Telemetry Transport).
 * **Hardware:** Raspberry Pi Pico W, MeArm Robot Kit, Servo Motors.
+  
+## 📝 Documentation
+
+<details>
+  <summary>main.py</summary>
+</details>
+<details>
+  <summary>PubSub_client.py</summary>
+</details>
+<details>
+  <summary>PubSub_server.py</summary>
+</details>
+<details>
+  <summary>Simulator.html</summary>
+</details>
+<details>
+  <summary>coreografia.txt</summary>
+</details>
+<details>
+  <summary>topics.txt</summary>
+</details>
+
 
 ## 👥 Authors
 
