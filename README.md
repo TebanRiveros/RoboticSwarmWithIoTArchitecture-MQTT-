@@ -6,6 +6,12 @@
 
 This repository contains the implementation of a synchronized robotic swarm system using **MeArm** robotic arms. The project focuses on distributed control through the **MQTT** (Publish/Subscribe) protocol, enabling multiple robots to execute complex, synchronized choreographies defined by a central server.
 
+
+<p align="center">
+  <img src="images/Video.gif" width="1000"/>
+</p>
+
+
 ## 🚀 Overview
 
 The system architecture allows a central server to broadcast user-defined instructions to a fleet of robots. Each robot, powered by a **Raspberry Pi Pico W**, subscribes to specific topics to receive and execute movements in real-time, ensuring high-precision synchronization across the swarm.
