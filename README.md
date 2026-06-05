@@ -8,7 +8,7 @@ This repository contains the implementation of a synchronized robotic swarm syst
 
 
 <p align="center">
-  <img src="images/Video.gif" width="1000"/>
+  <img src="images/Video.gif" width="500"/>
 </p>
 
 
