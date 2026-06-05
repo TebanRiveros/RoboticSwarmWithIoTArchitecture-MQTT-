@@ -41,6 +41,7 @@ The system architecture allows a central server to broadcast user-defined instru
 
 <details>
   <summary>main.py</summary>
+  Es el código principal para la implementación lógica del MeArm, dado que le permite a la Raspberry Pi Pico W, conectarse por wifi al Broker mediante el protocolo MQTT, en donde en tiempo real espera las instrucciones suministradas por el broker para su ejecución. En el archivo observamos cada una de las secciones por las que se compone el codigo, inicialmente encontramos la configuración de RTC que utilizando el reloj interno de la Raspberry sea capaz de sincronizarse en tiempo real con el reloj actual de la región predispuesta, ligandose a la posibilidad de crear Task para ciertos horarios especificos. La siguiente sección nos muestra como se lograron configurar los servos para que se posicionen en el ángulo deseado, para esto se debieron caracterizar los servos identificado la ecuación caracteristica del comportamiento del mismo para realizar las posiciones solicitadas
 </details>
 <details>
   <summary>PubSub_client.py</summary>
